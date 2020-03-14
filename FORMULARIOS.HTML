@@ -6,7 +6,7 @@
     <title>FORMULARIO</title>
 </head>
 <body>
-    <form action="introduccionweb/guardado.html" method="GET">
+    <form action="/introduccionweb/guardado.html" method="GET">
 
     <label for="nombre">Nombre</label>
     <br>
@@ -14,7 +14,11 @@
     <br> <br>
     <label for="apellidos">Apellidos</label>
     <br>
-    <input type="text" name="apellidos" id="apellidos">
+    <input type="text" name="apellidos" id="apellidos" required>
+    <br><br>
+    <label for="email">Correo</label>
+    <br>
+    <input type="email" name="email" id="email">
     <br><br>
 <input type="submit" value="Guardar">
     
